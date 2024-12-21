@@ -23,7 +23,7 @@ public class IpController {
         String serverIp = getServerIp();
         String userInfo = getUserInfo();
 
-        return "88888클라이언트 IP: " + clientIp + ", 222222서버 IP: " + serverIp + ", 사용자 정보 : "+ userInfo;
+        return "999999클라이언트 IP: " + clientIp + ", 222222서버 IP: " + serverIp + ", 사용자 정보 : "+ userInfo;
     }
 
     private String getUserInfo() {
